@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      //add here
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBCWTR48QO_JRSt0ffzX9B6uPn6AOORpHk",
+  authDomain: "hot-air-balloon-eb97e.firebaseapp.com",
+  databaseURL: "https://hot-air-balloon-eb97e-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "hot-air-balloon-eb97e",
+  storageBucket: "hot-air-balloon-eb97e.appspot.com",
+  messagingSenderId: "743386130128",
+  appId: "1:743386130128:web:5ae24cf8e045177ee520d5",
+  measurementId: "G-L7CD972KTS"
+};
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
